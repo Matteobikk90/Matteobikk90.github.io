@@ -21,7 +21,7 @@ $(".restart").click(function() {
 
 });
 
-var count=10;
+var count=45;
 
 var secondsLeft=setInterval(timer, 1000); 
 function timer()
