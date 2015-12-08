@@ -1,0 +1,102 @@
+body  {
+
+    background-color: black;
+    cursor: url("http://i.imgur.com/yRklTsH.png?1"), default;
+
+}
+
+h1 {
+
+    margin: 0 auto;
+    color: #FFEB3B;
+    height: 60px;
+    text-align: center;
+    font-size: 60px;
+    font-family: fantasy;
+    width: 555px;
+
+}
+
+#gameOverPage {
+    display: none
+}
+
+#gameOverImg{
+
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+}
+
+#boardMC {
+
+    width: 98%;
+    height: 695px;
+    margin-top: 5px;
+    margin-left: 12px;
+    background-image: url("http://immagini.4ever.eu/data/download/cartoni-animati/paesaggio-dipinto,-strada,-prato,-sole,-nuvole-207394.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#name {
+
+    width: 400px;
+    height: 100px;
+    margin-left: 1068px;
+    color: orange;
+    font-family: comic sans ms;
+    font-size: 60px;
+    text-align: right;
+}
+
+#score {
+
+	font-size: 60px;
+    font-family: comic sans ms;
+    text-align: right;
+    color: #FFEB3B;
+    float: right;
+    margin-top: 0px;
+    
+}
+
+#timer {
+
+	float: right;
+    font-size: 60px;
+    font-family: comic sans ms;
+    color: orange;
+    margin-top: 487px;
+    margin-left: 1231px;
+    position: absolute;
+
+}
+
+div.duckbtn {
+
+    width: 157px;
+    height:170px;
+    position:absolute;
+    
+}
+
+.duckbtn {
+
+    background-image: url("http://www.gifanimategratis.eu/img/animali/anatra/ducky.gif");
+    background-position: center center;
+   
+}
+
+.restart {
+
+    background-image: url("http://yrmy.trafi.fi/game/img/button-play-again.png");
+    background-position: center center;
+    background-size: cover;
+    width: 350px;
+    height: 160px;
+    float: left;
+    margin-top: 445px;
+
+}
